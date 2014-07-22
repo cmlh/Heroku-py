@@ -1,3 +1,3 @@
 #!/bin/sh
-virtual venv
+virtualenv venv
 source venv/bin/activate
