@@ -8,14 +8,12 @@ def index():
     return 'Hello!'
 
 @route('/oauth/authorise/basic', method=['GET','POST'])
-def instagram_oauth_redirect():
-    if request.body.len>0:
-        return 'Hello!'
+def oauth_redirect():
+    return 'Hello!'
     
-@route('/instagram/oauth/access/token', method=['GET','POST'])
-def instagram_oauth_access_token():
-    if request.body.len>0:
-        return 'Hello!'
+@route('/oauth/access/token', method=['GET','POST'])
+def oauth_access_token():
+    return 'Hello!'
 
 @bottle.route('/oauth/redirect')
 def oauth_redirect():
