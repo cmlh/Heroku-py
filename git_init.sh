@@ -3,6 +3,7 @@ git init
 git add .slugignore
 git add Procfile
 git add runtime.txt
+sh requirements.sh
 git add requirements.txt
 git add example_gunicorn.py
 echo "$ heroku create --ssh-git"
